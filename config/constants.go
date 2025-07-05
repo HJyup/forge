@@ -27,15 +27,15 @@ const (
 	SkipNoPackageJSON = "⚠️ Skipping %s: no package.json\n"
 	SkipGeneralError  = "⚠️ Skipping %s: %v\n"
 
-	DocMarginH        = 1
-	DocMarginV        = 2
+	DocMarginH        = 2
+	DocMarginV        = 1
 	TitleBarPaddingH  = 0
 	TitleBarPaddingV  = 1
-	TitlePadding      = 1
-	StatusPaddingH    = 0
-	StatusPaddingV    = 1
-	ItemPaddingLeft   = 2
-	HelpPaddingTop    = 1
-	HelpPaddingLeft   = 2
-	BorderPaddingLeft = 1
+	TitlePadding      = 0
+	StatusPaddingH    = 1
+	StatusPaddingV    = 0
+	ItemPaddingLeft   = 1
+	HelpPaddingTop    = 0
+	HelpPaddingLeft   = 1
+	BorderPaddingLeft = 2
 )
